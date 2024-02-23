@@ -1,12 +1,3 @@
-<?php
-
-
-$name = "Mark Francis P De Guzman"
-
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -108,9 +99,47 @@ $name = "Mark Francis P De Guzman"
                 </a>
             </div>
         </aside>
+
+        <!---SIDEBAR / OFFCANVAS END--->
+
+        <!---MAIN SCREEN STARTS--->
+
+        <div class="main">
+            <nav class="navbar navbar-expand px4 py3">
+                <form action="" class="d-none d-sm-inline-block">
+                    <div class="input-group input-group-navbar">
+                        <input type="text" class="form-control border-0 rounded" placeholder="Search...">
+                        <button class="btn btn-primary border-0 rounded 0 " type="button">
+                            SEARCH
+                        </button>
+                    </div>
+                </form>
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-icon pe-md-0" data-bs-toggle="dropdown">
+                                <img src="images/gelo-1x1.jpg" class="img-fluid" alt="">
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end rounded">
+                                <a href="#" class="dropdown-item">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Profile</span>
+                                </a>
+                                <hr class="dropdown-divider">
+                                <a href="#" class="dropdown-item">
+                                    <i class="fa-solid fa-gear"></i>
+                                    <span>Settings</span>
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!---MAIN SCREEN END--->
     </div>
 
-    <!---SIDEBAR / OFFCANVAS END--->
+
 
 
 
